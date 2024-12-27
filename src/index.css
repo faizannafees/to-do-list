@@ -1,0 +1,107 @@
+body {
+  background-color: lightcyan;
+  overflow: hidden;
+}
+/* .todo-list-app {
+  overflow: hidden;
+} */
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 2%;
+  color: brown;
+}
+.todo-app {
+  background-color: #fff;
+  padding: 2%;
+  width: fit-content;
+  margin: 2% auto 0 auto;
+  border-radius: 10px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 5px rgb(217, 198, 235);
+}
+.todo-app .task-input input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid lightgray;
+  width: 300px;
+}
+.todo-app .task-input input:focus {
+  outline: none;
+  outline: 1px solid skyblue;
+}
+.task-input {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightgrey;
+}
+.add-btn {
+  padding: 8px;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 60px;
+  cursor: pointer;
+}
+.add-btn:hover {
+  background-color: coral;
+}
+.toggle-btn {
+  background-color: lightseagreen;
+  border: none;
+  padding: 8px;
+  color: white;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 0px;
+  font-weight: bold;
+}
+.active {
+  background-color: black;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.todo-list-item {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightcyan;
+  padding: 0 15px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px lightgray;
+}
+.icon {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.check-icon {
+  color: green;
+}
+.dlt-icon:hover {
+  color: red;
+}
+.check-icon:hover {
+  color: darkgreen;
+}
+.route-btn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.route-div {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* table tbody {
+  background-color: #fff;
+} */

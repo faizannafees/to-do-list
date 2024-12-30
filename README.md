@@ -1,8 +1,45 @@
-# React + Vite
+## Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Prerequisites
 
-Currently, two official plugins are available:
+- **Node.js** and **npm** (or **Yarn**) installed on your machine.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/faizannafees/to-do-list
+   cd to-do-list
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+   or with Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   or with Yarn:
+
+   ```bash
+   yarn dev
+   ```
+
+Your application should now be running on `http://localhost:3000`.
+
+## Usage
+
+1. Open `http://localhost:3000` in your browser to view the app.
+2. Interact with the app components to see the required functionality in action.
